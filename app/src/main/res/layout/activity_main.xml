@@ -14,11 +14,12 @@
         android:text="FIT NEXT"
         android:textColor="@color/yazı"
         android:textSize="70sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_Egzersizler"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
 
     <Button
         android:id="@+id/btn_Beslenme"
@@ -30,9 +31,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Egzersizler" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Egzersizler"
+        app:layout_constraintVertical_bias="0.191" />
 
     <Button
         android:id="@+id/btn_Egzersizler"
@@ -42,9 +44,25 @@
         android:text="EGZERSİZLER"
         android:textColor="@color/yazı"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_Beslenme"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <Button
+        android:id="@+id/btn_boykilo"
+        android:layout_width="316dp"
+        android:layout_height="110dp"
+        android:backgroundTint="@color/buton"
+        android:text="BOY-KİLO HESAPLA"
+        android:textColor="@color/yazı"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Beslenme"
+        app:layout_constraintVertical_bias="0.539" />
 </androidx.constraintlayout.widget.ConstraintLayout>

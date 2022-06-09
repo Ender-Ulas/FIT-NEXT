@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">FIT NEXT</string>
+
+    <string name="boy">Boy</string>
+    <string name="kilo">Kilo</string>
+    <string name="cinsiyet">Cinsiyet</string>
+    <string name="ideal_kilo">İdeal Kilonuz</string>
+    <string name="durum">Durum</string>
+    <string name="bay">Bay</string>
+    <string name="bayan">Bayan</string>
+
+    <string name="cokzayif">Çok Zayıf </string>
+    <string name="zayif">Zayıf </string>
+    <string name="ideal">İdeal Kilo</string>
+    <string name="birazFazla">İdealden Fazla</string>
+    <string name="fazla">Fazla Kilo</string>
+    <string name="cokFazla">Çok Fazla Kilo</string>
+    <string name="riskli">Yüksek Risk</string>
+    <string name="hasta">Hastalıklı Kilo</string>
+    <string name="superkilo">Süper Aşırı Kilo</string>
 </resources>

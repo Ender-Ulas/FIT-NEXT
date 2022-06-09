@@ -20,20 +20,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn_sirt"
-        android:layout_width="269dp"
-        android:layout_height="73dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTint="#217F8C"
-        android:text="SIRT"
-        android:textColor="#0C4D91"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_gogus"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="202dp"
@@ -47,18 +33,43 @@
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@drawable/egzersizicon" />
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="96dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_karinkasi"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_karinkasi"
+        app:srcCompat="@drawable/kaskarn" />
+
+    <Button
+        android:id="@+id/btn_sirt"
+        android:layout_width="269dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#217F8C"
+        android:text="SIRT"
+        android:textColor="#0C4D91"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_gogus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/btn_omuz"
         android:layout_width="269dp"
         android:layout_height="73dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="84dp"
         android:backgroundTint="#217F8C"
         android:text="OMUZ"
         android:textColor="#0C4D91"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintHorizontal_bias="0.894"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -72,7 +83,7 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_sirt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintHorizontal_bias="0.894"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:layout_constraintVertical_bias="1.0" />
@@ -81,39 +92,23 @@
         android:id="@+id/btn_gogus"
         android:layout_width="269dp"
         android:layout_height="73dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#217F8C"
         android:text="GÖĞÜS"
         android:textColor="#0C4D91"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_omuz"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintHorizontal_bias="0.894"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="96dp"
-        android:layout_height="72dp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_karinkasi"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btn_karinkasi"
-        app:srcCompat="@drawable/kaskarn" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="91dp"
-        android:layout_height="72dp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_sirt"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btn_sirt"
-        app:srcCompat="@drawable/sirt" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="91dp"
         android:layout_height="80dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toStartOf="@+id/btn_gogus"
+        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btn_gogus"
         app:srcCompat="@drawable/gogus" />
@@ -122,11 +117,22 @@
         android:id="@+id/imageView10"
         android:layout_width="94dp"
         android:layout_height="73dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="76dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_omuz"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/omuz" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="91dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_sirt"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_sirt"
+        app:srcCompat="@drawable/sirt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

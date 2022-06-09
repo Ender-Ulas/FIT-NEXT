@@ -10,25 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FITNEXT">
         <activity
+            android:name=".boykilohesapla"
+            android:exported="false" />
+        <activity
             android:name=".omuzsayfasi"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".gogussayfasi"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".sirtsayfasi"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".karinkasisayfasi"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".BESLENME"
             android:exported="false" />

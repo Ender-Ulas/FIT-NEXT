@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     private Button egzersizler;
     private Button beslenme;
+    private Button btn_boykilo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +30,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplication(),BESLENME.class);
                 startActivity(intent);
+            }
+        });
+
+        btn_boykilo = (Button) findViewById(R.id.btn_boykilo);
+        btn_boykilo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btn_boykilo = new Intent(MainActivity.this, boykilohesapla.class);
+                startActivity(btn_boykilo);
             }
         });
 

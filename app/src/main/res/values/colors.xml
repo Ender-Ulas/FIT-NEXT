@@ -10,4 +10,14 @@
     <color name="arkaplan">#47D1C5</color>
     <color name="buton">#217F8C</color>
     <color name="yazı">#0C4D91</color>
+
+    <color name="cokzayif">#7da13a</color>
+    <color name="zayif">#3aa141</color>
+    <color name="ideal">#3aa17b</color>
+    <color name="birazFazla">#3a93a1</color>
+    <color name="fazla">#3a6aa1</color>
+    <color name="cokFazla">#6c3aa1</color>
+    <color name="riskli">#8e3aa1</color>
+    <color name="hasta">#a13a6c</color>
+    <color name="superkilo">#9b0c29</color>
 </resources>

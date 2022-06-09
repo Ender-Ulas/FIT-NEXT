@@ -24,12 +24,47 @@
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="170dp"
-        android:layout_height="106dp"
+        android:layout_width="181dp"
+        android:layout_height="166dp"
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:srcCompat="@drawable/sirtsayfasi1" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="189dp"
+        android:layout_height="187dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218"
+        app:srcCompat="@drawable/sirtsayfasi2" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="233dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606"
+        app:srcCompat="@drawable/sirtsayfasi3" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="246dp"
+        android:layout_height="168dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sirtsayfasi4" />
 </androidx.constraintlayout.widget.ConstraintLayout>

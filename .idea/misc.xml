@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1925" />
         <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_beslenme.xml" value="0.33" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_boykilohesapla.xml" value="0.22" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_deneme.xml" value="0.33" />
         <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_egzersizler.xml" value="0.22" />
         <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_gogussayfasi.xml" value="0.22" />
         <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_karinkasisayfasi.xml" value="0.2" />
         <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_kisiye_ozel.xml" value="0.22" />
         <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_omuzsayfasi.xml" value="0.22" />
-        <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_sirtsayfasi.xml" value="0.18" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/layout/activity_sirtsayfasi.xml" value="0.22" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1925" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/FITNEXT/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1925" />
       </map>
     </option>
   </component>

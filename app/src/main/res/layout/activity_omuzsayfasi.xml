@@ -21,8 +21,9 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="155dp"
-        android:layout_height="163dp"
+        android:layout_width="169dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.062"
@@ -30,4 +31,39 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.237"
         app:srcCompat="@drawable/omuzsayfasi1" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="169dp"
+        android:layout_height="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232"
+        app:srcCompat="@drawable/omuzsayfasi2" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="235dp"
+        android:layout_height="213dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627"
+        app:srcCompat="@drawable/omuzsayfasi3" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="243dp"
+        android:layout_height="172dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView31"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/omuzsayfasi4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
